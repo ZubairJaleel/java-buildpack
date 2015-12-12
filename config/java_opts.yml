@@ -16,4 +16,4 @@
 # JAVA_OPTS configuration
 ---
 from_environment: true
-java_opts:
+java_opts: -Xss963K -Xmx295M -Xms295M -XX:MetaspaceSize=64M -XX:MaxMetaspaceSize=64M
